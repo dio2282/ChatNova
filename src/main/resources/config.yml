@@ -1,0 +1,51 @@
+# INI AKAN TERISI SENDIRI DENGAN CONSTRANS
+
+# ChatNova Configuration
+
+# Server-specific chat formats
+format:
+  # Default format for unknown servers
+  player: "&f{rank}{player}&7: &f{message}"
+  
+  # Console format
+  console: "&c&lCONSOLE&7: &c{message}"
+  
+  # Server-specific formats
+  lobby-1: "&b&lLOBBY-1 &f{rank}{player}&7: &b{message}"
+  lobby-2: "&b&lLOBBY-2 &f{rank}{player}&7: &b{message}"
+  survival-1: "&a&lSURVIVAL-1 &f{rank}{player}&7: &a{message}"
+  survival-2: "&a&lSURVIVAL-2 &f{rank}{player}&7: &a{message}"
+  factions: "&4&lFACTIONS &f{rank}{player}&7: &4{message}"
+  creative: "&d&lCREATIVE &f{rank}{player}&7: &d{message}"
+  skyblock: "&e&lSKYBLOCK &f{rank}{player}&7: &e{message}"
+
+# Cooldown settings (in seconds)
+cooldown:
+  default: 60  # Default cooldown for regular players
+
+# Chat settings
+chat:
+  max-length: 100  # Maximum message length in characters
+
+# Use MiniMessage format (recommended)
+use-minimessage: true
+
+# Messages
+messages:
+  usage: "&eUsage: /gc <message>"
+  no-permission: "&cYou don't have permission to use this command!"
+  chat-muted: "&cGlobal chat has been muted!"
+  chat-unmuted: "&aGlobal chat has been unmuted!"
+  global-muted: "&cGlobal chat is currently muted!"
+  cooldown: "&cPlease wait {time} seconds before sending another message!"
+  blacklisted: "&cYou are blacklisted from global chat!"
+  muted: "&cYou are muted and cannot use global chat!"
+  message-too-long: "&cYour message is too long! Maximum length is {max} characters."
+  banned-words: "&cYour message contains banned words!"
+  no-urls: "&cURLs are not allowed in global chat!"
+  reload-success: "&aConfiguration reloaded successfully!"
+  reload-error: "&cError reloading configuration. Check console for details."
+  
+  # GC Toggle messages
+  gc-hidden: "&aGlobal chat has been hidden. You will not see global chat messages."
+  gc-shown: "&aGlobal chat has been shown. You will now see global chat messages."

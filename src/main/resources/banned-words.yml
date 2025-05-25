@@ -1,0 +1,44 @@
+# Daftar kata-kata terlarang untuk filter chat
+# Kata-kata ini akan disensor dalam pesan global chat
+
+banned-words:
+  # Kata kasar dalam Bahasa Indonesia
+  - anjing
+  - babi
+  - bangsat
+  - bajingan
+  - kontol
+  - memek
+  - ngentot
+  - jancok
+  - asu
+  - tolol
+  - goblok
+  - bodoh
+  - idiot
+  
+  # Kata kasar dalam Bahasa Inggris
+  - fuck
+  - shit
+  - bitch
+  - asshole
+  - dick
+  - pussy
+  - cunt
+  - bastard
+  - damn
+  - wtf
+  
+  # Kata-kata sensitif lainnya
+  - noob
+  - hacker
+  - cheat
+  - hack
+  - jual
+  - beli
+  - promosi
+  - discord.gg
+  - discord.com
+  
+  # Tambahkan kata-kata terlarang lainnya sesuai kebutuhan
+  # Format: - kata_terlarang
