@@ -84,7 +84,9 @@ format:
 
 # Cooldown settings (in seconds)
 cooldown:
-  default: 60
+  default: 60  # Default cooldown for regular players
+  vip: 30     # Reduced cooldown for VIP players (gc.cooldown.vip)
+  premium: 15 # Reduced cooldown for Premium players (gc.cooldown.premium)
 
 # Chat settings
 chat:
